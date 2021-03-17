@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Course</title>
+    </head>
+    <body>
+
+     <div id="mainapp">
+
+        <!-- act like this is a form in an app -->
+        <div class="form">
+
+            <input type="text" class="fn" name="fn" placeholder="First name"/>
+            <input type="text" class="ln" name="ln" placeholder="Last name"/>
+            
+            <select name="lang" id="lang">
+                <option value="en">English</option>
+                <option value="ro">Romana</option>
+            </select>
+
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <button type="button" class="sendButton">Send</button>
+
+        </div>
+
+        <!-- The greeting text will be added here -->
+        <h1 class="greeting"></h1>
+
+     </div>       
+
+     <script src="jQuery.js"></script>
+     <script src="hello.js"></script>
+     <script src="app.js"></script>
+    </body>
+</html>
