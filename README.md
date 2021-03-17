@@ -7,8 +7,8 @@ After you set the values, you can use any methods you need.
 # liveGreet()
 Outputs the greet in a selector (jQuery selector)
 
-`let user = hi$(fn, ln, lang, gender);
-user.liveGreet( 'h1.greeting', true );`
+`let user = hi$(fn, ln, lang, gender);`
+`user.liveGreet( 'h1.greeting', true );`
 
 **Methods available**
  * fullName
